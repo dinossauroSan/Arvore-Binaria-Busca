@@ -12,7 +12,7 @@ public class Arvore {
     public void inserir(int x, No raiz) {
         if(estaVazia()) {
             No novo = new No(x);
-            this.raiz = novo;
+            raiz = novo;
             return System.out.prinln("Nó inserido com sucesso");
         }
         if( x < raiz.getX()) {
